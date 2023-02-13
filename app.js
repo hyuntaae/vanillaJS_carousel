@@ -27,3 +27,19 @@ prevBtn.addEventListener('click', function(){
   }
 })
 
+// 확장성 있는 코드
+// 슬라이드에 이미지 추가에 대응한 코드
+
+/* let count = 0;
+
+nextBtn.addEventListener('click', function(){
+  count++;
+  slide.style.transform = `translateX(-${count}00vw)`;
+  console.log(count);
+})
+
+prevBtn.addEventListener('click', function(){
+  count--;
+  slide.style.transform = `translateX(-${count}00vw)`;
+  console.log(count);
+}) */
